@@ -1,0 +1,31 @@
+====== POST API =======
+{
+  bookingid: 890,
+  booking: {
+    firstname: 'Franz',
+    lastname: 'Beckenbauer',
+    totalprice: 1000,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'football'
+  }
+}
+====== GET API =======
+{
+  firstname: 'Franz',
+  lastname: 'Beckenbauer',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'football'
+}
+Token no is: dcfde3fe89ac42c
+====== PATCH API =======
+{
+  firstname: 'Matheus',
+  lastname: 'Beckenbauer',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'football'
+}

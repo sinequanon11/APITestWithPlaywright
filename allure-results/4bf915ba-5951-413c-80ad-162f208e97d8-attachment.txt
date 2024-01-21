@@ -1,0 +1,11 @@
+{
+  bookingid: 479,
+  booking: {
+    firstname: 'Kaycee',
+    lastname: 'Moen',
+    totalprice: 888,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-01-21', checkout: '2024-01-28' },
+    additionalneeds: 'super bowls'
+  }
+}

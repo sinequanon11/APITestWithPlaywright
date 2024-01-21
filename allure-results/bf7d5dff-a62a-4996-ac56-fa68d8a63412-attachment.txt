@@ -1,0 +1,18 @@
+{
+  bookingid: 875,
+  booking: {
+    firstname: 'Franz',
+    lastname: 'Beckenbauer',
+    totalprice: 1000,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'football'
+  }
+}
+========================================================================
+[
+  { bookingid: 866 },
+  { bookingid: 876 },
+  { bookingid: 879 },
+  { bookingid: 875 }
+]
